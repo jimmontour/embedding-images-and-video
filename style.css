@@ -1,0 +1,179 @@
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   margin: 0 1.5rem;
+}
+
+.container {
+   display: flex;
+
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0.5rem 0 2rem 0;
+}
+
+.primary-container {
+      border-right: red 1px solid;
+      width: 65%
+}
+
+main {
+   border-bottom: 0.25px solid #606060;
+   padding-bottom: 1rem;
+}
+
+.primary-nav {
+   display: flex;
+   align-items: center;
+
+}
+
+.logo {
+   padding-left: 1rem;
+}
+
+.search-bar-container {
+   display: flex;
+   align-items: center;
+   height: 32;
+   border-color: #606060 .5px solid;
+}
+
+.search-bar {
+   width: 600px;
+   height: 32px;
+   border-color: none;
+   padding: 7px 0 7px 10px;
+   color: #606060;
+   font-size: 17px;
+   font-weight: 500;
+}
+
+.search-bar-btn {
+   background-color: #94949C;
+   height: 100%;
+   border: 1px solid #606060;
+   border-radius: none;
+}
+
+.microphone-btn {
+   padding-left: 1rem;
+}
+
+.secondary-nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 200px;
+}
+
+.primary-container {
+   margin-left: 136px;
+}
+
+.video-title {
+   display: block;
+   margin-top: 1rem;
+}
+
+.secondary-video-info {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-bottom: 1rem;
+   border-bottom: #606060 0.25px solid
+}
+
+.video-stats {
+   display: flex;
+   color: #606060;
+}
+
+.video-date {
+   padding-left: 0.5rem;
+}
+
+.video-nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.author {
+   display: flex;
+   align-items: center;
+   margin-top: 1rem;
+}
+
+.author-details {
+   display: block;
+   padding-left: 1rem;
+}
+
+.subscribers {
+   color: #606060;
+}
+
+.video-details {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.subscribe-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.video-description {
+   padding-left: 5rem;
+   width: 800px;
+}
+
+.show-more {
+   font-weight: 800;
+   color: #606060;
+   padding-top: 1rem;
+}
+
+.comments {
+   margin-top: 1.5rem;
+}
+
+.comments-header {
+   display: flex;
+   align-items: center;
+}
+
+.comments-filter {
+   display: flex;
+   align-items: center;
+   color: #606060;
+   padding-left: 2rem;
+   font-weight: 800;
+}
+
+.comment-form {
+   display: flex;
+   align-items: center;
+}
+
+.comment-form input {
+   height: 21px;
+   border: none;
+   border-bottom: 1px solid #606060;
+   width: 1058px;
+   margin-left: 1rem;
+   font-size: 16px;
+}
