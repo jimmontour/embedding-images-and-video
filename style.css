@@ -23,7 +23,6 @@ header {
 }
 
 .primary-container {
-      border-right: red 1px solid;
       width: 65%
 }
 
@@ -46,24 +45,25 @@ main {
    display: flex;
    align-items: center;
    height: 32;
-   border-color: #606060 .5px solid;
+   border: 1px #606060 solid;
 }
 
 .search-bar {
    width: 600px;
    height: 32px;
    border-color: none;
-   padding: 7px 0 7px 10px;
-   color: #606060;
+   padding-left: 9px;
    font-size: 17px;
    font-weight: 500;
+   border: none;
 }
 
 .search-bar-btn {
-   background-color: #94949C;
+   background-color: #F8F8F8;
+   border: none;
+   width: 60px;
    height: 100%;
-   border: 1px solid #606060;
-   border-radius: none;
+   border-left: 1px #606060 solid;
 }
 
 .microphone-btn {
@@ -113,11 +113,28 @@ main {
    display: flex;
    align-items: center;
    margin-top: 1rem;
+   font-size: 12px;
 }
 
 .author-details {
    display: block;
    padding-left: 1rem;
+}
+
+.subscription {
+   display: flex;
+   align-content: center
+}
+
+.subscription button {
+   border: none;
+   padding: 1rem
+}
+
+.subscription img {
+   height: 75%;
+   padding-top: 10px;
+
 }
 
 .subscribers {
@@ -128,6 +145,7 @@ main {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   font-size: 14px;
 }
 
 .subscribe-container {
@@ -145,6 +163,7 @@ main {
    font-weight: 800;
    color: #606060;
    padding-top: 1rem;
+   font-size: 14px;
 }
 
 .comments {
@@ -164,6 +183,12 @@ main {
    font-weight: 800;
 }
 
+.comment-reply {
+   font-weight: 600;
+   color: #606060;
+   font-size: 12px;
+}
+
 .comment-form {
    display: flex;
    align-items: center;
@@ -176,4 +201,71 @@ main {
    width: 1058px;
    margin-left: 1rem;
    font-size: 16px;
+}
+
+.comment {
+   display: flex;
+   align-items: center;
+   margin: 2rem 0;
+}
+
+.user-and-date {
+   display: flex;
+   align-items: center;
+   margin-left:
+}
+
+
+.comment-date {
+   padding-left: .5rem;
+   color: #606060;
+   font-weight: 400;
+   font-size: 12px;
+}
+
+.comment-message {
+   margin-top: .5rem;
+}
+
+.comment-bottom {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 150px;
+}
+
+.comment-thumbs-up,
+.comment-thumbs-down {
+   margin-top: .5rem;
+   width: 27px
+}
+
+.comment-profile-img {
+   margin-right: 1rem;
+}
+
+.suggested-videos {
+   margin-left: 1.5rem;
+}
+
+.suggestion-details {
+   padding-left: .5rem;
+}
+
+.suggestion {
+   display: flex;
+   align-items: center;
+   width: 400px;
+   padding: .5rem 0;
+}
+
+.suggestion-title {
+   font-size: 14px;
+}
+
+.suggestion-author,
+.suggestion-details,
+.suggestion-metrics {
+   font-size: 12px;
+   color: #606060;
 }
